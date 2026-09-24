@@ -46,7 +46,7 @@
 
         Ltshift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
         };
 
         Ltwin {
