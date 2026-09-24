@@ -114,7 +114,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W             &kp F          &kp P       &kp B                                              &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A        &kp R             &kp S          &kp T       &kp G             &mkp MCLK          &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
+&kp A        &kp R             &kp S          &kp T       &kp G             &none              &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
 &kp Z        &kp X             &kp C          &kp D       &kp V             &kp LC(SPACE)      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH
 &kp LC(F10)  &kp SINGLE_QUOTE  &kp LG(SPACE)  &kp DELETE  &lt 1 DOWN_ARROW  &lt 2 ENTER        &kp TAB       &lt 3 SPACE                             &kp EXCLAMATION
             >;
@@ -144,10 +144,10 @@
 
         ARROW {
             bindings = <
-&kp AMPERSAND        &kp AT_SIGN       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                             &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN
-&kp MINUS            &kp LEFT_BRACKET  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN              &trans             &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ESCAPE
-&mt LEFT_SHIFT HASH  &kp PERCENT       &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                &kp LG(SPACE)      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DELETE
-&trans               &trans            &trans             &trans         &trans                   &trans             &trans  &trans                           &trans
+&trans  &trans  &trans  &trans  &trans                             &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans  &trans             &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp ESCAPE
+&trans  &trans  &trans  &trans  &trans  &kp LG(SPACE)      &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
@@ -156,7 +156,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &none   &none   &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &bootloader
             >;
