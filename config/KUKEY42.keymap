@@ -150,7 +150,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans                           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&WheelScroll SCRL_UP SCRL_DOWN>;
         };
 
         MOUSE {
