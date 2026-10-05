@@ -15,12 +15,6 @@
     quick-tap-ms = <0>;
 };
 
-//
-&trackball {
-    automouse-layer = <4>;
-};
-
-//
 / {
     combos {
         compatible = "zmk,combos";
