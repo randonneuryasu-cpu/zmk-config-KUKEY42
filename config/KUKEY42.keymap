@@ -68,6 +68,11 @@
             bindings = <&mkp MB2>;
             key-positions = <7 20>;
         };
+
+        LtMB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 7>;
+        };
     };
 
     macros {
