@@ -118,10 +118,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W         &kp F       &kp P       &kp B                                              &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A    &kp R         &kp S       &kp T       &kp G             &mkp MB1           &out OUT_BLE  &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z    &kp X         &kp C       &kp D       &kp V             &kp LC(SPACE)      &out OUT_USB  &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH
-&kp SQT  &kp QUESTION  &kp ESCAPE  &kp DELETE  &lt 1 DOWN_ARROW  &lt 2 ENTER        &kp TAB       &lt 3 SPACE                             &kp EXCLAMATION
+&kp Q    &kp W         &kp F       &kp P       &kp B                                                  &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A    &kp R         &kp S       &kp T       &kp G             &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp M        &kp N  &kp E      &kp I    &kp O
+&kp Z    &kp X         &kp C       &kp D       &kp V             &kp LC(SPACE)       &out OUT_USB     &kp K        &kp H  &kp COMMA  &kp DOT  &kp SLASH
+&kp SQT  &kp QUESTION  &kp ESCAPE  &kp DELETE  &lt 1 DOWN_ARROW  &lt 2 ENTER         &kp TAB          &lt 3 SPACE                             &kp EXCLAMATION
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
@@ -129,10 +129,10 @@
 
         FUNCTION {
             bindings = <
-&kp LA(UP_ARROW)    &kp HOME        &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                         &kp MINUS      &kp N7        &kp N8        &kp N9        &trans
-&kp LC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans     &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SINGLE_QUOTE
-&kp F12             &kp F11         &kp LA(C)           &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &trans     &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&kp F2              &kp F9          &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp BACKSPACE                                            &trans
+&kp LA(UP_ARROW)    &kp HOME        &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                            &kp MINUS      &kp N7        &kp N8        &kp N9        &trans
+&kp LC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans        &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SINGLE_QUOTE
+&kp F12             &kp F11         &kp LA(C)           &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &out OUT_USB  &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp F2              &kp F9          &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER     &kp BACKSPACE                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
