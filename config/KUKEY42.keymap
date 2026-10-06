@@ -119,10 +119,10 @@
 
         FUNCTION {
             bindings = <
-&kp LA(UP_ARROW)    &kp HOME         &kp UP_ARROW        &kp END           &kp LA(DOWN_ARROW)                            &kp MINUS      &kp N7        &kp N8        &kp N9        &trans
-&kp LC(LEFT_ARROW)  &kp LEFT_ARROW   &kp DOWN_ARROW      &kp RIGHT         &kp LC(RIGHT)       &trans      &trans        &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SINGLE_QUOTE
-&kp LS(LC(F12))     &kp LS(LC(F11))  &kp LA(C)           &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &out OUT_USB  &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&trans              &trans           &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER     &kp BACKSPACE                                            &trans
+&kp LA(UP_ARROW)    &kp HOME         &kp UP_ARROW    &kp END           &kp LA(DOWN_ARROW)                            &kp MINUS      &kp N7        &kp N8        &kp N9        &kp COLON
+&kp LC(LEFT_ARROW)  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT         &kp LC(RIGHT)       &trans      &trans        &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
+&kp LS(LC(F12))     &kp LS(LC(F11))  &kp LA(C)       &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &out OUT_USB  &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&trans              &trans           &trans          &trans            &trans              &trans      &kp ENTER     &kp BACKSPACE                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
