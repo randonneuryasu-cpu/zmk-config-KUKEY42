@@ -6,6 +6,9 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+// ★追加：インプットプロセッサの定義を読み込む（環境によって不要な場合もありますが、書いておくと安全です）
+#include <dt-bindings/zmk/input_transform.h>
+
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
@@ -13,6 +16,13 @@
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
+};
+
+// ★追加：トラックボールのインプットプロセッサ設定
+// ※もし使用している基板が「central_listener」という名称の場合は、&trackball_listener を &central_listener に書き換えてください。
+&trackball_listener {
+    status = "okay";
+    input-processors = <&zip_temp_layer MOUSE 1500>; // トラックボールを動かすと「MOUSEレイヤー（4番）」に切り替わり、1.5秒（1500ms）静止すると元に戻る
 };
 
 / {
