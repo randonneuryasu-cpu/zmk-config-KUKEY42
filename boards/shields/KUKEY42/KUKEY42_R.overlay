@@ -1,4 +1,6 @@
 #include "KUKEY42.dtsi"
+// ★1行目にこれを必ず追加する
+#include <input/processors.dtsi>
 
 &default_transform {
     col-offset = <6>;
