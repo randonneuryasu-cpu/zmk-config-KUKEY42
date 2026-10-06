@@ -108,10 +108,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W         &kp F       &kp P       &kp B                                                  &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
-&kp A    &kp R         &kp S       &kp T       &kp G             &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp M        &kp N  &kp E      &kp I    &kp O
-&kp Z    &kp X         &kp C       &kp D       &kp V             &kp LC(SPACE)       &out OUT_BLE     &kp K        &kp H  &kp COMMA  &kp DOT  &kp SQT
-&kp SQT  &kp QUESTION  &kp ESCAPE  &kp DELETE  &lt 1 DOWN_ARROW  &lt 2 ENTER         &kp TAB          &lt 3 SPACE                             &kp EXCLAMATION
+&kp Q  &kp W  &kp F  &kp P       &kp B                                                  &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON
+&kp A  &kp R  &kp S  &kp T       &kp G             &kp LEFT_SHIFT      &kp RIGHT_SHIFT  &kp M        &kp N  &kp E      &kp I    &kp O
+&kp Z  &kp X  &kp C  &kp D       &kp V             &kp LC(SPACE)       &out OUT_BLE     &kp K        &kp H  &kp COMMA  &kp DOT  &kp SQT
+&none  &none  &none  &kp DELETE  &lt 1 DOWN_ARROW  &lt 2 ENTER         &kp TAB          &lt 3 SPACE                             &none
             >;
 
             sensor-bindings = <&WheelScroll SCRL_DOWN SCRL_UP>;
@@ -139,10 +139,10 @@
 
         ARROW {
             bindings = <
-&trans   &trans   &trans       &trans              &trans                                &trans  &trans      &trans  &trans  &kp PRINTSCREEN
-&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &trans  &kp ESCAPE  &trans  &trans  &kp ESCAPE
-&kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &trans  &trans      &trans  &trans  &kp DELETE
-&trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                              &kp CAPS
+&trans   &trans   &trans       &trans              &trans                                &trans  &kp EXCLAMATION  &trans  &kp QUESTION  &kp PRINTSCREEN
+&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &trans  &kp ESCAPE       &trans  &trans        &kp ESCAPE
+&kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &trans  &trans           &trans  &trans        &kp DELETE
+&trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                                         &kp CAPS
             >;
 
             sensor-bindings = <&WheelScroll SCRL_UP SCRL_DOWN>;
