@@ -135,19 +135,19 @@
 
         NUM {
             bindings = <
-&kp LC(UP_ARROW)  &kp HOME  &kp UP_ARROW    &kp END           &kp RA(DOWN_ARROW)                         &kp F12            &kp F7  &kp F8  &kp F9  &kp LEFT_PARENTHESIS
-&kp F12           &kp F11   &kp DOWN_ARROW  &kp RIGHT         &kp RC(RIGHT)       &trans      &trans     &kp F11            &kp F4  &kp F5  &kp F6  &kp RIGHT_PARENTHESIS
-&kp F2            &kp F9    &kp LS(LC(C))   &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp F10            &kp F1  &kp F2  &kp F3  &kp LEFT_BRACKET
-&trans            &trans    &trans          &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                          &lt 6 RIGHT_BRACKET
+&kp LC(LS(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp RA(DOWN_ARROW)                         &kp LEFT_PARENTHESIS   &kp F7  &kp F8  &kp F9  &kp LEFT_BRACKET
+&kp F12          &kp F11          &kp F10        &kp F7            &kp RC(RIGHT)       &trans      &trans     &kp RIGHT_PARENTHESIS  &kp F4  &kp F5  &kp F6  &kp RIGHT_BRACKET
+&kp F2           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp F10                &kp F1  &kp F2  &kp F3  &trans
+&trans           &trans           &trans         &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                              &mo 6
             >;
         };
 
         ARROW {
             bindings = <
-&trans   &trans   &trans       &trans              &trans                                &kp F12  &kp F7    &kp F8    &kp F9    &kp PRINTSCREEN
-&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &kp F11  &mkp MB1  &mkp MB2  &mkp MB3  &kp ESCAPE
-&kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &kp F10  &kp F1    &kp F2    &kp F3    &kp DELETE
-&trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                                 &kp CAPS
+&trans   &trans   &trans       &trans              &trans                                &trans  &trans      &trans  &trans  &kp PRINTSCREEN
+&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &trans  &kp ESCAPE  &trans  &trans  &kp ESCAPE
+&kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &trans  &trans      &trans  &trans  &kp DELETE
+&trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                              &kp CAPS
             >;
 
             sensor-bindings = <&WheelScroll SCRL_UP SCRL_DOWN>;
@@ -155,10 +155,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &bootloader
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &bootloader
             >;
         };
 
