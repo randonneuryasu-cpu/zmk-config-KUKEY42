@@ -140,7 +140,7 @@
         ARROW {
             bindings = <
 &trans   &trans   &trans       &trans              &trans                                &trans  &kp EXCLAMATION  &kp MINUS  &kp QUESTION  &kp PRINTSCREEN
-&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &trans  &kp ESCAPE       &trans     &trans        &kp ESCAPE
+&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &trans  &kp ESCAPE       &kp SQT    &trans        &kp ESCAPE
 &kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &trans  &trans           &trans     &trans        &kp DELETE
 &trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                                            &kp CAPS
             >;
