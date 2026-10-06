@@ -16,8 +16,8 @@
 };
 
 / {
-
     // ★これを combos の上あたりに追加
+
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
@@ -148,10 +148,10 @@
 
         NUM {
             bindings = <
-&kp LC(UP_ARROW)    &kp HOME        &kp UP_ARROW        &kp END           &kp RA(DOWN_ARROW)                         &kp F12            &kp F7  &kp F8  &kp F9  &kp LEFT_PARENTHESIS
-&kp RC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp RIGHT         &kp RC(RIGHT)       &trans      &trans     &kp F11            &kp F4  &kp F5  &kp F6  &kp RIGHT_PARENTHESIS
-&kp F12             &kp F11         &kp LS(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp F10            &kp F1  &kp F2  &kp F3  &kp LEFT_BRACKET
-&kp F2              &kp F9          &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                          &lt 6 RIGHT_BRACKET
+&kp LC(UP_ARROW)  &kp HOME  &kp UP_ARROW        &kp END           &kp RA(DOWN_ARROW)                         &kp F12            &kp F7  &kp F8  &kp F9  &kp LEFT_PARENTHESIS
+&kp F12           &kp F11   &kp DOWN_ARROW      &kp RIGHT         &kp RC(RIGHT)       &trans      &trans     &kp F11            &kp F4  &kp F5  &kp F6  &kp RIGHT_PARENTHESIS
+&kp F2            &kp F9    &kp LS(LC(C))       &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp F10            &kp F1  &kp F2  &kp F3  &kp LEFT_BRACKET
+&trans            &trans    &kp LG(DOWN_ARROW)  &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                          &lt 6 RIGHT_BRACKET
             >;
         };
 
