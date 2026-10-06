@@ -205,3 +205,10 @@
         };
     };
 };
+
+// ファイルの最後（既存の }; の外）に追記する書き方
+/ {
+    trackball_listener {
+        input-processors = <&zip_temp_layer MOUSE 1500>;
+    };
+};
