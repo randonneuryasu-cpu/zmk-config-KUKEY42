@@ -19,6 +19,8 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
+        // ★この1行を既存の記述の中に直接追加します
+        input-processors = <&zip_temp_layer 4 1500>; 
     };
 };
 
@@ -60,10 +62,5 @@
         automouse-layer = <0>;
         scroll-layers = <5>;
     };
-};
-
-&trackball_listener {
-    status = "okay";
-    input-processors = <&zip_temp_layer 4 1500>;
 };
 
