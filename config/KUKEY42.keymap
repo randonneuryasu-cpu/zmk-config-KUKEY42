@@ -149,10 +149,10 @@
 
         ARROW {
             bindings = <
-&trans           &trans           &trans       &trans       &trans                                &kp F12  &kp F7    &kp F8    &kp F9    &kp PRINTSCREEN
-&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LC(F10)  &trans       &trans     &trans             &trans  &kp F11  &mkp MB1  &mkp MB2  &mkp MB3  &kp ESCAPE
-&trans           &trans           &kp LC(C)    &kp LC(F10)  &kp LC(V)  &kp LG(SPACE)      &trans  &kp F10  &kp F1    &kp F2    &kp F3    &kp DELETE
-&trans           &trans           &trans       &trans       &trans     &trans             &trans  &trans                                 &kp CAPS
+&trans   &trans   &trans       &trans              &trans                                &kp F12  &kp F7    &kp F8    &kp F9    &kp PRINTSCREEN
+&kp F12  &kp F11  &kp LC(F10)  &kp LG(DOWN_ARROW)  &trans     &trans             &trans  &kp F11  &mkp MB1  &mkp MB2  &mkp MB3  &kp ESCAPE
+&kp F2   &kp F9   &kp LC(C)    &kp LG(UP_ARROW)    &kp LC(V)  &kp LG(SPACE)      &trans  &kp F10  &kp F1    &kp F2    &kp F3    &kp DELETE
+&trans   &trans   &trans       &trans              &trans     &trans             &trans  &trans                                 &kp CAPS
             >;
 
             sensor-bindings = <&WheelScroll SCRL_UP SCRL_DOWN>;
