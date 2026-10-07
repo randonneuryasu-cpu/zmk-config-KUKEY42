@@ -130,10 +130,10 @@
 
         NUM {
             bindings = <
-&kp LC(LS(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp RA(DOWN_ARROW)                         &kp LEFT_PARENTHESIS   &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp LEFT_BRACKET
-&kp F12          &kp F11          &kp F10        &kp F7            &kp RC(RIGHT)       &trans      &trans     &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp RIGHT_BRACKET
-&trans           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))       &trans      &trans     &kp F10                &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &trans
-&trans           &trans           &trans         &trans            &trans              &trans      &kp ENTER  &kp RC(BACKSPACE)                                                   &mo 6
+&kp LC(LS(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp F2                                &kp LEFT_PARENTHESIS   &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp LEFT_BRACKET
+&kp F12          &kp F11          &kp F10        &kp F7            &kp RC(RIGHT)  &trans      &trans     &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp RIGHT_BRACKET
+&trans           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(LS(V))  &trans      &trans     &kp F10                &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &trans
+&trans           &trans           &trans         &trans            &trans         &trans      &kp ENTER  &kp RC(BACKSPACE)                                                   &mo 6
             >;
         };
 
