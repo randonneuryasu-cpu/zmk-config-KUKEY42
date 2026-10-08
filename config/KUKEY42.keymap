@@ -19,11 +19,6 @@
     combos {
         compatible = "zmk,combos";
 
-        scroll {
-            bindings = <&mo 5>;
-            key-positions = <19 20>;
-        };
-
         Rtshift {
             bindings = <&kp RSHIFT>;
             key-positions = <18 19>;
