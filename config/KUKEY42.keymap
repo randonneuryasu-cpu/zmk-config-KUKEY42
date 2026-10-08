@@ -115,8 +115,8 @@
         FUNCTION {
             bindings = <
 &kp LA(UP_ARROW)    &kp HOME            &kp UP_ARROW    &kp END           &kp LA(DOWN_ARROW)                            &kp MINUS      &kp N7        &kp N8        &kp N9        &kp COLON
-&kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT         &kp LC(RIGHT)       &trans      &trans        &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&kp DEL             &kp LG(DOWN_ARROW)  &kp LA(C)       &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &out OUT_USB  &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
+&kp LC(LEFT_ARROW)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT         &kp LC(RIGHT)       &trans      &trans        &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL
+&kp DEL             &kp LG(DOWN_ARROW)  &kp LA(C)       &kp LG(UP_ARROW)  &kp LS(LC(V))       &trans      &out OUT_USB  &kp ESCAPE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
 &trans              &trans              &trans          &trans            &trans              &trans      &kp ENTER     &kp BACKSPACE                                            &trans
             >;
 
@@ -125,10 +125,10 @@
 
         NUM {
             bindings = <
-&kp LC(LS(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp F2                            &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp TILDE  &kp PIPE   &trans
+&kp LS(LC(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp F2                            &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp TILDE  &kp PIPE   &trans
 &kp F12          &kp F11          &kp F10        &kp F7            &kp N9     &trans      &trans     &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp F5     &kp MINUS  &trans
 &kp F8           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(V)  &trans      &trans     &kp ESCAPE         &kp F1                 &kp F4     &kp F3     &trans
-&trans           &trans           &trans         &trans            &trans     &trans      &kp ENTER  &kp RC(BACKSPACE)                                               &mo 6
+&trans           &trans           &trans         &trans            &trans     &trans      &kp ENTER  &kp LC(BACKSPACE)                                               &mo 6
             >;
         };
 
