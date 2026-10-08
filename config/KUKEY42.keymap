@@ -63,6 +63,11 @@
             bindings = <&kp LCTRL>;
             key-positions = <10 11>;
         };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <7 20>;
+        };
     };
 
     macros {
@@ -150,10 +155,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &bootloader
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &mkp MB3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &bootloader
             >;
         };
 
