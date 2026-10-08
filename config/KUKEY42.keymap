@@ -126,8 +126,8 @@
         NUM {
             bindings = <
 &kp LC(LS(F12))  &kp LS(LC(F11))  &kp LC(F10)    &kp F6            &kp F2                            &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp TILDE  &kp PIPE  &trans
-&kp F12          &kp F11          &kp F10        &kp F7            &kp N9     &trans      &trans     &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp F5     &trans    &kp ESCAPE
-&kp F8           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(V)  &trans      &trans     &trans             &kp F1                 &kp F4     &kp F3    &trans
+&kp F12          &kp F11          &kp F10        &kp F7            &kp N9     &trans      &trans     &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp F5     &trans    &trans
+&kp F8           &kp F9           &kp LS(LC(C))  &kp LG(UP_ARROW)  &kp LC(V)  &trans      &trans     &kp ESCAPE         &kp F1                 &kp F4     &kp F3    &trans
 &trans           &trans           &trans         &trans            &trans     &trans      &kp ENTER  &kp RC(BACKSPACE)                                              &mo 6
             >;
         };
