@@ -136,7 +136,7 @@
             bindings = <
 &kp LC(Q)  &kp LC(W)  &trans     &trans  &trans                                &kp MINUS          &kp AMPERSAND    &kp ASTERISK  &kp QUESTION  &kp PRINTSCREEN
 &kp LC(A)  &trans     &trans     &trans  &trans     &trans             &trans  &kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET     &kp ESCAPE
-&kp LC(Z)  &trans     &kp LC(C)  &trans  &kp LC(V)  &kp LG(SPACE)      &trans  &kp SQT            &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DELETE
+&kp LC(Z)  &trans     &kp LC(C)  &trans  &kp LC(V)  &kp LG(SPACE)      &trans  &kp MINUS          &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DELETE
 &trans     &trans     &trans     &trans  &trans     &trans             &trans  &trans                                                          &kp CAPS
             >;
 
