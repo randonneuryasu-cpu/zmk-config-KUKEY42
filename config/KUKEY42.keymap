@@ -25,7 +25,7 @@
         };
 
         Rtwin {
-            bindings = <&kp RGUI>;
+            bindings = <&mkp MB3>;
             key-positions = <19 20>;
         };
 
@@ -57,6 +57,11 @@
         Ltctl {
             bindings = <&kp LCTRL>;
             key-positions = <10 11>;
+        };
+
+        RtWin {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <31 32>;
         };
     };
 
