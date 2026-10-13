@@ -58,11 +58,6 @@
             bindings = <&kp RIGHT_WIN>;
             key-positions = <19 20>;
         };
-
-        MB3 {
-            bindings = <&mkp MB2>;
-            key-positions = <7 20>;
-        };
     };
 
     macros {
