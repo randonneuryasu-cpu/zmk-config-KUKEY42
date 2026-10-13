@@ -24,11 +24,6 @@
             key-positions = <18 19>;
         };
 
-        Rtwin {
-            bindings = <&mkp MB3>;
-            key-positions = <19 20>;
-        };
-
         RtAlt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <17 18>;
@@ -61,7 +56,7 @@
 
         RtWin {
             bindings = <&kp RIGHT_WIN>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
         };
     };
 
@@ -150,10 +145,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB3  &mkp MB1  &trans  &trans  &mkp MB2
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &bootloader
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &trans  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &bootloader
             >;
         };
 
