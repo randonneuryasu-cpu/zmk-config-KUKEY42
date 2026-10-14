@@ -58,6 +58,11 @@
             bindings = <&kp RIGHT_WIN>;
             key-positions = <19 20>;
         };
+
+        BT {
+            bindings = <&mo 6>;
+            key-positions = <35 36>;
+        };
     };
 
     macros {
